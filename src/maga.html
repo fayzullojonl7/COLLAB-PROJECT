@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header class="max-w-[1200px] m-auto">
+    <header class="max-w-[1200px] m-auto px-[10px] md:items-start items-center">
         <nav class="flex justify-between py-[10px]">
             <i>loop</i>
             <h1>Avion</h1>
@@ -18,7 +18,7 @@
                 <i>mark</i>
             </div>
         </nav>
-        <ul class="w-[50%] m-auto my-[10px] flex gap-[30px]">
+        <ul class="w-[50%] m-auto my-[10px] gap-[30px] hidden md:flex">
             <li>Plant pots</li>
             <li>Ceramics</li>
             <li>Tables</li>
@@ -27,30 +27,30 @@
             <li>Tableware</li>
             <li>Cutlery</li>
         </ul>
-        <img src="./Hero Blocks.png" alt="">
+        <img src="./Hero Blocks.png" alt="" class=" hidden md:block">
         <img src="./Frame 2.png" alt="" class="md:hidden">
     </header>
 
-    <main class="max-w-[1200px] m-auto">
+    <main class="max-w-[1200px] m-auto p-[10px]">
         <section class="py-[40px]">
             <h2 class="text-center text-[30px]">What makes our brand different</h2>
-            <aside class="py-[40px] flex justify-between">
-                <article class="text-[#2A254B] p-[25px] bg-[#F9F9F9] flex flex-col gap-[10px] items-start w-[280px]">
+            <aside class="py-[40px] flex flex-col justify-between md:items-start items-center gap-[10px] md:flex-row">
+                <article class="text-[#2A254B] p-[25px] bg-[#F9F9F9] flex flex-col gap-[10px] md:items-start items-center md:text-start text-center md:w-[280px]">
                     <img src="./Delivery.png" alt="">
                     <h4 class="text-[22px]">Next day as standard</h4>
                     <p class="">Order before 3pm and get your order the next day as standard</p>
                 </article>
-                <article class="text-[#2A254B] p-[25px] bg-[#F9F9F9] flex flex-col gap-[10px] items-start w-[280px]">
+                <article class="text-[#2A254B] p-[25px] bg-[#F9F9F9] flex flex-col gap-[10px] md:items-start items-center md:text-start text-center md:w-[280px]">
                     <img src="./Checkmark--outline.png" alt="">
                     <h4 class="text-[22px]">Made by true artisans</h4>
                     <p class="">Handmade crafted goods made with real passion and craftmanship</p>
                 </article>
-                <article class="text-[#2A254B] p-[25px] bg-[#F9F9F9] flex flex-col gap-[10px] items-start w-[280px]">
+                <article class="text-[#2A254B] p-[25px] bg-[#F9F9F9] flex flex-col gap-[10px] md:items-start items-center md:text-start text-center md:w-[280px]">
                     <img src="./Purchase.png" alt="">
                     <h4 class="text-[22px]">Unbeatable prices</h4>
                     <p class="">For our materials and quality you won’t find better prices anywhere</p>
                 </article>
-                <article class="text-[#2A254B] p-[25px] bg-[#F9F9F9] flex flex-col gap-[10px] items-start w-[280px]">
+                <article class="text-[#2A254B] p-[25px] bg-[#F9F9F9] flex flex-col gap-[10px] md:items-start items-center md:text-start text-center md:w-[280px]">
                     <img src="./Sprout.png" alt="">
                     <h4 class="text-[22px]">Recycled packaging</h4>
                     <p class="">We use 100% recycled to ensure our footprint is more manageable</p>
@@ -59,7 +59,7 @@
         </section>
 
         <section class="flex flex-col gap-[30px]">
-            <aside class=" flex justify-between">
+            <aside class=" flex flex-col md:flex-row justify-between gap-[10px] items-center md:items-start ">
                 <article class="text-[#2A254B] flex flex-col gap-[10px] items-start w-[280px]">
                     <img src="./Photo.png" alt="">
                     <h4>The Dandy chair</h4>
@@ -83,7 +83,7 @@
             </aside>
             <button class="p-[10px] font-bold bg-[#F9F9F9] text-[#2A254B]">View collection</button>
         </section>
-        <section class="py-[40px] my-[10px] flex justify-between gap-[15px]">
+        <section class="py-[40px] my-[10px] flex flex-col md:flex-row justify-between gap-[15px]">
             <aside class="bg-[#2A254B] text-white p-[40px] flex flex-col justify-between items-start gap-[10px]">
                 <div class="flex flex-col gap-[10px]">
                     <h3 class="text-[32px] w-[80%]">It started with a small idea</h3>
@@ -100,25 +100,25 @@
         </section>
     </main>
 
-    <footer class="max-w-[1200px] m-auto">
+    <footer class="max-w-[1200px] m-auto ">
         <section class="relative">
             <img src="./Image (1).png" alt="">
-            <div class="flex absolute bottom-12 right-[470px]">
-                <input type="text" placeholder="your@email.com" class="p-[10px] outline-none border-none">
-                <button class="bg-[#2A254B] text-white p-[10px]">SIGN IN</button>
+            <div class="flex absolute md:bottom-12 md:right-[470px] bottom-5 right-[100px]">
+                <input type="text" placeholder="your@email.com" class="md:p-[10px] p-[1px] outline-none border-none">
+                <button class="bg-[#2A254B] text-white md:p-[10px] p-[1px]">SIGN IN</button>
             </div>
         </section>
         <section class="bg-[#2A254B] text-white p-[40px]">
-            <div class="flex justify-between ">
+            <div class="flex justify-between">
                 <ul class="flex flex-col gap-[5px] w-[20%]">
                     <li>Menu</li>
                     <li>New arrivals</li>
                     <li>Best sellers</li>
-                    <li>Recently viewed</li>
-                    <li>Popular this week</li>
-                    <li>All products</li>
+                    <li class="hidden md:block">Recently viewed</li>
+                    <li class="hidden md:block">Popular this week</li>
+                    <li class="hidden md:block">All products</li>
                 </ul>
-                <ul class="flex flex-col gap-[5px] w-[20%]">
+                <ul class=" flex-col gap-[5px] w-[20%] hidden md:flex">
                     <li>Our company</li>
                     <li>About us</li>
                     <li>Vacancies</li>
@@ -126,7 +126,7 @@
                     <li>Privacy</li>
                     <li>Returns policy</li>
                 </ul>
-                <ul class="flex flex-col gap-[5px] w-[20%]">
+                <ul class=" flex-col gap-[5px] w-[20%] hidden md:flex">
                     <li>Categories</li>
                     <li>Crockery</li>
                     <li>Furniture</li>
@@ -137,7 +137,7 @@
                 </ul>
                 <div class="flex flex-col gap-[10px] w-[40%]">
                     <p>Join our mailing list</p>
-                    <div class="flex bottom-12 right-[470px]">
+                    <div class="flex">
                         <input type="text" placeholder="your@email.com" class="p-[10px] bg-[#FFFFFF26] outline-none border-none">
                         <button class="bg-white text-[#2A254B] p-[10px]">SIGN IN</button>
                     </div>
