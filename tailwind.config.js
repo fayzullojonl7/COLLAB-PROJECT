@@ -1,10 +1,10 @@
- /** @type {import('tailwindcss').Config} */
- export default {
+/** @type {import('tailwindcss').Config} */
+export default {
   content: ["./src/**/*.{html,js}"],
   theme: {
     screens: {
-      'xs':'320px',
-       // => @media (min-width: 320px) { ... }
+      'xs': '320px',
+      // => @media (min-width: 320px) { ... }
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 
